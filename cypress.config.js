@@ -7,4 +7,8 @@ export default defineConfig({
       // implement node event listeners here
     },
   },
+  retries: { 
+      runMode: 3,  // retry failed tests 3 times in "cypress run"
+      openMode: 3  // retry failed tests 3 times in "cypress open"
+    }
 });
