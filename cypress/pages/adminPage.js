@@ -25,8 +25,6 @@ class adminPage  {
         cy.get('button[type="submit"]').click();
     }   
 
-    
-
     fillUserForm(uniqueUsername){
         
     
@@ -49,7 +47,6 @@ class adminPage  {
     }
 
     deleteUser(){
-        
             cy.get('button').find('.oxd-icon.bi-trash').click();
             cy.get('button.oxd-button--label-danger').click();
     }
