@@ -1,0 +1,23 @@
+{
+  "login": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "user": {
+    "employee": "M",
+    "password": "Admin@123",
+    "confirmPassword": "Admin@123",
+    "userRole": "Admin",
+    "status": "Enabled",
+    "username": "Desouky"
+  },
+
+
+    "message": {
+    "SuccessfullySaved": "Successfully Saved",
+    "SuccessfullyDeleted": "Successfully Deleted"
+  }   
+
+
+}
+
